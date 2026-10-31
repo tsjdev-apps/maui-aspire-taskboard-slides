@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["@slidev/types/client", "vite/client"]
+  },
+  "include": [
+    "themes/**/*.ts",
+    "themes/**/*.vue",
+    "decks/components/**/*.vue",
+    "tests/**/*.ts",
+    "playwright.config.ts",
+    "env.d.ts",
+    "node_modules/@slidev/client/shim-vue.d.ts",
+    "node_modules/@slidev/client/shim.d.ts"
+  ]
+}
