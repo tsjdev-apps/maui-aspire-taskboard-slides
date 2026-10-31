@@ -1,0 +1,42 @@
+{
+  "name": "slidev-theme-tsjdevapps",
+  "version": "1.0.0",
+  "description": "Warm paper, teal accents and developer typography for tsjdevapps Slidev decks.",
+  "license": "MIT",
+  "author": "Thomas Sebastian Jensen",
+  "homepage": "https://www.tsjdev-apps.de",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsjdev-apps/maui-aspire-taskboard-slides.git",
+    "directory": "themes/tsjdevapps"
+  },
+  "keywords": ["slidev", "slidev-theme", "tsjdevapps"],
+  "files": ["components", "layouts", "setup", "styles", "README.md", "LICENSE"],
+  "engines": {
+    "slidev": ">=53.0.0"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/roboto": "5.3.0"
+  },
+  "peerDependencies": {
+    "@slidev/client": ">=53.0.0",
+    "@slidev/types": ">=53.0.0"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "aspectRatio": "16/9",
+      "canvasWidth": 980,
+      "colorSchema": "auto",
+      "transition": "fade-out",
+      "codeCopy": true,
+      "magicMoveDuration": 700,
+      "fonts": {
+        "provider": "none",
+        "sans": "Roboto",
+        "mono": "JetBrains Mono"
+      }
+    }
+  }
+}
