@@ -4,6 +4,13 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # User-specific files
+node_modules/
+dist/
+exports/
+playwright-report/
+test-results/
+*.tgz
+
 *.rsuser
 *.suo
 *.user
